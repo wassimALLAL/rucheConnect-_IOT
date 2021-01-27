@@ -60,5 +60,5 @@ STM32-L476RG	 x1   			https://www.mouser.fr/ProductDetail/STMicroelectronics/NUC
 	Quels sont les pins utilisés ?
 Nous utilisons 4 capteurs branchés sur notre microcontroleur.
 Voici le branchement effectué sur notre NUCLEO L-432KC :
-![alt text](http://url/to/img.png)
+![Présentation du branchement](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/branchement.jpg)
 
