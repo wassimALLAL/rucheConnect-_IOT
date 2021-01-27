@@ -13,15 +13,10 @@ Nous avons pu amener à bien notre projet malgré un contexte difficile, dans un
 
 Caractéristiques :
 Le suivi de la ruche consiste à obtenir ces données :
-
 •	Poids 
-
 •	Température intérieur/extérieur
-
 •	Humidité
-
 •	Vitesse du vent
-
 avec l’utilisation d’un microcontrôleur et de différents capteurs.
 
      Conditions préalables
@@ -74,7 +69,7 @@ Dans notre projet différents software ont été utilisé pour mettre en place n
 •	Une fois la procédure de programmation des capteurs est mise en place, le Soft Sigfox intervient pour l’envoie des données vers une interface web Ubidots pour permettre au client de suivre l’évolution des données du système.
 •	Ubidots est le soft qui gère l’interface utilisateur c’est-à-dire la plateforme qui permet à l’utilisateur de communiqué avec sa ruche.
  
- 	
+ ![creeationDeviceUbidots](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)	
 MBED
 Mbed OS fournit la plateforme logicielle Mbed C/C++ et les outils nécessaires à la création d'un micro logiciel de microcontrôleur qui fonctionne sur les appareils IoT. Il se compose des bibliothèques de base qui fournissent les pilotes de périphériques de microcontrôleurs, la mise en réseau, le RTOS et l'environnement d'exécution, les outils de construction et les scripts de test et de débogage. Ces connexions peuvent être sécurisées par des bibliothèques SSL/TLS compatibles telles que Mbed TLS ou wolfSSL, qui supporte mbed-rtos.
 Sigfox
@@ -85,18 +80,18 @@ Dans notre projet on a utilisé un module Sigfox. Pour mettre en place le module
 •	Ensuite, vous devrez choisir un opérateur Sigfox pour le pays dans lequel vous allez activer votre appareil. Trouvez votre pays et sélectionnez l'opérateur pour continuer.
 •	Une fois que votre appareil est enregistré dans le backend Sigfox, vous devriez le voir dans la section Appareil comme indiqué sur l'image ci-dessous :
  
-Figure 1: Activation du module Sigfox
+![activationmoduleSigfox](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/activationmoduleSigfox.png)
 Sigfox et Ubidots 
 La gestion des données entre Sigfox et Ubidots passe par un "Callback". Le dispositif Sigfox sera chargé de lire les capteurs et d'envoyer les valeurs à Sigfox, le message sera décodé en utilisant la configuration personnalisée de la charge utile au niveau des configurations de rappel pour construire la demande de liaison montante du message vers Ubidots. 
  
-Figure 2:
 Il est maintenant temps de mettre en place le rappel. Allez dans la section Dispositif et cliquez sur le dispositif enregistré :
  
-Figure 3:
+![device](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/device.png)
+device
 Ensuite, vérifiez les informations relatives à votre appareil et sélectionnez "CALLBACKS" dans le menu à gauche de la page, comme vous pouvez le voir ci-dessous :
 
- 
-Figure 4:
+ ![callbacks](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/callbacks.png)
+
 Sigfox callbacks allow you to report data to an external system like Ubidots. To setup a callback to Ubidots API, use these parameters:
 •	Type : Data - Uplink
 •	Channel: UTL
@@ -114,13 +109,13 @@ Sigfox callbacks allow you to report data to an external system like Ubidots. To
   "Anemo" : {"value":"{customData#value3}"},
   "Poids" : {"value":"{customData#value4}"}
 }
- 
-Figure 5 :
+ ![callbacksOK](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/callbacksOK.png) 
+
 Une fois que votre appareil est prêt, rendez-vous sur votre compte Ubidots pour visualiser le nouvel appareil créé avec les variables.
 Dans le compte Ubidots, il faut crée un new devise dans le menu Devices voir figure ci-dessous.
  
 Une fois le devise crée vous pouvez visualiser les différentes variables en cliquant dessus voir figure ci-dessous.
-
+![creeationDeviceUbidots](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)
 
 		Les pistes explorées
 
