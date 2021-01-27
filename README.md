@@ -13,10 +13,15 @@ Nous avons pu amener à bien notre projet malgré un contexte difficile, dans un
 
 Caractéristiques :
 Le suivi de la ruche consiste à obtenir ces données :
+
 •	Poids 
+
 •	Température intérieur/extérieur
+
 •	Humidité
+
 •	Vitesse du vent
+
 avec l’utilisation d’un microcontrôleur et de différents capteurs.
 
      Conditions préalables
