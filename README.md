@@ -25,33 +25,35 @@ Savoir lire une fiche technique et en extraire les données les plus importantes
 Connaitre des protocoles de communication comme I2C ou encore l'UART.
 Savoir envoyer des données en utilisant Sigfox.
 
-1.	Liste des matériels utilisés dans le projet RUCHE CONNECTEE
+	Liste de matériel 
 
-	Photo	Quantité	Lien pour l’achat
-STM32 Nucleo STM32 L432KC	
+
+• STM32 Nucleo STM32 L432KC	
 x1	https://www.st.com/en/evaluation-tools/nucleo-l432kc.html 
 
-Capteur de température Interne DS18B20	 	x1	https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm
+• Capteur de température Interne DS18B20	 	x1	https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm
 
-Capteur de température, d'humidité DHT22	 	x1	https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm
+• Capteur de température, d'humidité DHT22	 	x1	https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm
 
-Accéléromètre ADXL345	 	x1	https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm
+• Accéléromètre ADXL345	 	x1	https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm
 
-Capteur de poids	 	x1	https://fr.aliexpress.com/...
+• Capteur de poids	 	x1	https://fr.aliexpress.com/...
 
-Ensemble capteurs girouette anémomètre
+• Ensemble capteurs girouette anémomètre
 LEXCA007	 	x1	https://www.amazon.fr/Cimoto-WH-SP-WS01-Instrument-Accessoires-An%C3%A9Mom%C3%A8Tre/dp/B083XR9X3R 
 
-Capteur de Son
-MAX4466 LM386	 	x1	https://www.mouser.fr/...
+• Capteur de Son
+Adafruit I2S MEMS Microphone Breakout	 	x1	 https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t
 
-Panneau solaire SOL2W (Capteur de luminosité)	 	x1	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
+STM32-L476RG	 x1   			https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-L476RG?qs=PRtH0mD6DWbM6mRV5DKjBQ==&gclid=CjwKCAiAu8SABhAxEiwAsodSZIBpuepHc-agLV2I75A6EUGy7IFRcOjObn0HcXxYk_EZfKa1jvdfuxoCd0EQAvD_BwE
 
-Batterie	 	x1	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
+• Panneau solaire SOL2W (Capteur de luminosité)	 	x1	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
 
-LiPo Rider	 	x1	https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm 
+• Batterie	 	x2	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
 
-Sigfox	 	x1	https://yadom.fr/carte-breakout-sfm10r1.html 
+• LiPo Rider	 	x2	https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm 
+
+• Sigfox	 	x1	https://yadom.fr/carte-breakout-sfm10r1.html 
 
 
 
