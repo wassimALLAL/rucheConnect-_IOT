@@ -47,7 +47,12 @@ Nous utilisons 4 capteurs branchés sur notre microcontroleur.
 Voici le branchement effectué sur notre NUCLEO L-432KC :
 ![Présentation du branchement](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/branchement.jpg)
 
-
+## Architecture du code cpp
+![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/ExplicationCodeC/1.jpg?raw=true)
+![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/ExplicationCodeC/2.jpg?raw=true)
+![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/ExplicationCodeC/3.jpg?raw=true)
+![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/ExplicationCodeC/4.jpg?raw=true)
+![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/ExplicationCodeC/5.jpg?raw=true)
 ## Utilisation de Sigfox et Ubidots
 Dans notre projet différents software ont été utilisé pour mettre en place notre ruche connecter. La figure ci-dessous montre les parties de notre projet :
 •	On a une partie devises qui permets de programmer les différents capteurs (Températures, Humidité, poids, accéléromètre…) mais aussi de mettre en place un protocoles d’envoi de données. Cette partie est géré par un soft en ligne qui est MBED (https://os.mbed.com/).
@@ -172,11 +177,6 @@ Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzd
 	
 Notre cible dans cette partie est un STM32L476RG, l’acquisition du son ce fait par un [Adafruit I2S MEMS Microphone Breakout](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t). 
 Pour la partie code, veuillez le télécharger [ici](https://github.com/ShawnHymel/ei-keyword-spotting/tree/master/embedded-demos/stm32cubeide/nucleo-l476-keyword-spotting) et suivez le tutoriel pour importer le projet sur STM32Cude et inclure votre bibliothèque C++.
-
-
-
-
-
 
 
 
