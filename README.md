@@ -25,20 +25,37 @@ Savoir lire une fiche technique et en extraire les données les plus importantes
 Connaitre des protocoles de communication comme I2C ou encore l'UART.
 Savoir envoyer des données en utilisant Sigfox.
 
-# Liste de matériel 
-|  | Photo | Quantité | Lien pour l’achat |
-|--|--|--|--|
-| STM32 Nucleo STM32 L432KC | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/1.png?raw=true) | x1 | [https://www.st.com/en/evaluation-tools/nucleo-l432kc.html%20https://www.st.com/en/evaluation-tools/nucleo-l432kc.html](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html%20https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
-| Capteur de température Interne DS18B20 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/2.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm](https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm)
-| Capteur de température, d'humidité DHT22 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/3.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm](https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm)
-| Accéléromètre ADXL345 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/4.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm](https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm)
-| Capteur de poids | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/5.jpg?raw=true) | x1 | [https://fr.aliexpress.com/...](https://fr.aliexpress.com/item/32821335975.html?spm=a2g0o.detail.1000060.1.70c57419XUIr2b&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.128609.0&scm_id=1007.13339.128609.0&scm-url=1007.13339.128609.0&pvid=bee5c452-83cb-4266-97bf-3a4ea713013e&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.128609.0,pvid:bee5c452-83cb-4266-97bf-3a4ea713013e,tpp_buckets:668#0%23131923%2358_668%23808%237756%23616_668%23888%233325%239_668%232846%238116%23928_668%232717%237566%23874__668%233468%2315618%23960)
-| Ensemble capteurs girouette anémomètre LEXCA007| ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/6.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm](https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm)
-| Capteur de Son Adafruit I2S MEMS Microphone Breakout | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/7.png?raw=true) | x1 | [https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/...](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t)
-| Panneau solaire SOL2W (Capteur de luminosité) | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/7.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm](https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm)
-| Batterie | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/8.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm](https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm)
-| LiPo Rider | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/9.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm](https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm)
-| Sigfox | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/10.jpg?raw=true) | x1 | [https://yadom.fr/carte-breakout-sfm10r1.html](https://yadom.fr/carte-breakout-sfm10r1.html)
+	Liste de matériel 
+
+
+• STM32 Nucleo STM32 L432KC	
+x1	https://www.st.com/en/evaluation-tools/nucleo-l432kc.html 
+
+• Capteur de température Interne DS18B20	 	x1	https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm
+
+• Capteur de température, d'humidité DHT22	 	x1	https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm
+
+• Accéléromètre ADXL345	 	x1	https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm
+
+• Capteur de poids	 	x1	https://fr.aliexpress.com/...
+
+• Ensemble capteurs girouette anémomètre
+LEXCA007	 	x1	https://www.amazon.fr/Cimoto-WH-SP-WS01-Instrument-Accessoires-An%C3%A9Mom%C3%A8Tre/dp/B083XR9X3R 
+
+• Capteur de Son
+
+Adafruit I2S MEMS Microphone Breakout	 	x1	 https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t
+
+STM32-L476RG	 x1   			https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-L476RG?qs=PRtH0mD6DWbM6mRV5DKjBQ==&gclid=CjwKCAiAu8SABhAxEiwAsodSZIBpuepHc-agLV2I75A6EUGy7IFRcOjObn0HcXxYk_EZfKa1jvdfuxoCd0EQAvD_BwE
+
+• Panneau solaire SOL2W (Capteur de luminosité)	 	x2	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
+
+• Batterie	 	x2	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
+
+• LiPo Rider	 	x2	https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm 
+
+• Sigfox	 	x2	https://yadom.fr/carte-breakout-sfm10r1.html 
+
 
 	Quels sont les pins utilisés ?
 Nous utilisons 4 capteurs branchés sur notre microcontroleur.
@@ -137,10 +154,10 @@ Edge Impulse permet aux développeurs de créer la prochaine génération de dis
 
 La base de données doit inclure des extraits sonores d’un frelon par exemple, une reine, le bruit à l’intérieur d’une ruche, un phénomène d'essaimage … etc. Elle devra contenir autant de pistes que les phénomènes ou n’importe son que nous souhaitons détecter.
 	
-La figure ci-dessous est l’interface de Edge Impulse et vous pouvez avoir plus d’informations sur l’utilisation de Edge Impulse sur ce lien. 
+La figure ci-dessous est l’interface de Edge Impulse et vous pouvez avoir plus d’informations sur l’utilisation de Edge Impulse sur ce [lien](https://docs.edgeimpulse.com/docs/audio-classification). 
 	
 
-Tout traitement sur pistes sonores téléchargées depuis to bee or not to bee a été réalisé à l’aide du bloc MFCC avec le paramétrage suivant :
+Tout traitement sur pistes sonores téléchargées depuis [to bee or not to bee](https://zenodo.org/record/1321278#.YA8fui1zjmF) a été réalisé à l’aide du bloc [MFCC]https://fr.wikipedia.org/wiki/Cepstre avec le paramétrage suivant :
 	
   
 
