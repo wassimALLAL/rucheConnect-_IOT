@@ -117,16 +117,15 @@ Dans le compte Ubidots, il faut crée un new devise dans le menu Devices voir fi
 Une fois le devise crée vous pouvez visualiser les différentes variables en cliquant dessus voir figure ci-dessous.
 ![creeationDeviceUbidots](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)
 
-		Les pistes explorées
+## Les pistes explorées
 
-	Optimisation de la consommation d’énergie : 
+### Optimisation de la consommation d’énergie : 
 	
 Un scénario particulier a été mis en place pour réduire la consommation d’énergie, toute consommation est dû à l’utilisation des capteurs et des périphériques de la carte nucleo STM32L432KC, c’est pourquoi nous alimentons les capteurs chaque 30 minutes pour une durée de 10 secondes. 
 
-
 Le graphe ci-dessous représente l’alimentation d’un capteur dans un  intervalle de 1800 secondes (30 minutes).
 
- 
+![Graphe](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)
 
 Afin de concrétiser ce scénario en Hardware, toute patte Vin d’un capteur est branchée à une broche Digital du micro-contrôleur. En Software, on mettra la patte Digital en output à 1, qui se traduit par 3.3v en sortie de cette patte, pour une durée de 10 secondes. 
 
@@ -176,9 +175,7 @@ Notre modèle n’est pas très accurate, 53.6%, il faut augmenter la base de do
 
 Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fait sur l’onglet Deployment.
 
- 
  ![Deployer](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/DeployerEdgeImpulse.png)
-device
 
 Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++
 
