@@ -1,8 +1,8 @@
 # rucheConnect_IOT
 
-                                                #POLYTECH SORBONNE
-                                                      #EI2I4
-                                                #La ruche connectée
+                                               POLYTECH SORBONNE
+                                                      EI2I4
+                                                La ruche connectée
                          
   ## Présentation du projet            
    Dans le cadre de notre formation au sein de Polytech Sorbonne, il nous a été confié un projet consistant à réaliser une ruche connectée destinée à des apiculteurs.
