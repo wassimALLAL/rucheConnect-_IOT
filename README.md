@@ -3,7 +3,8 @@
                                                 POLYTECH SORBONNE
                                                       EI2I4
                                                 La ruche connectée
-                               
+                         
+
         Présentation du projet                
    Dans le cadre de notre formation au sein de Polytech Sorbonne, il nous a été confié un projet consistant à réaliser une ruche connectée destinée à des apiculteurs.
 Notre système doit être capable d’envoyer certaines données caractéristiques de la ruche et de son emplacement. Un cahier des charges à été conçu grâce à l’aide des apiculteurs.  Le système créer doit tout d’abord envoyer les données comme le poids total de la ruche, la température intérieur et extérieur, l’humidité extérieur ou encore des données caractéristiques du vent. Afin de faciliter l’utilisation de cette ruche connectée, nous devons fournir avec ce système une interface utilisateur à l’apiculteur. Notre système devra bien-sûr être totalement autonome et étanche.
