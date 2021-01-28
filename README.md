@@ -136,7 +136,8 @@ Un autre moyen est envisageable pour réduire encore davantage la consommation, 
 
 Pour alimenter le microcontrôleur depuis la patte 3.3 volts nous proposons le montage suivant : 
 
-   
+![Pololu](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Pololu.png)
+
 
 Réaliser avec un usb04d 0J9652 Pololu et régulateur de tension reg09b0J7031 Pololu
 
