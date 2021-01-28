@@ -144,9 +144,7 @@ Réaliser avec un usb04d 0J9652 Pololu et régulateur de tension reg09b0J7031 Po
 
 Pour donner le montage final suivant :
 
-
- 
-
+![MontageFinal](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/MontageFinal.png) 
 
 ##### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
 
@@ -176,9 +174,9 @@ Notre modèle n’est pas très accurate, 53.6%, il faut augmenter la base de do
 
 Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fait sur l’onglet Deployment.
 
- ![Deployer](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/DeployerEdgeImpulse.png)
+![Deployer](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/DeployerEdgeImpulse.png)
 
-Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++
+Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++.
 
 ##### Utilisation des librairies C++ : 
 	
