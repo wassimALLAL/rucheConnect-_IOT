@@ -21,10 +21,10 @@ Le suivi de la ruche consiste à obtenir ces données en utilisant un microcontr
 
 ## Conditions préalables
 
- - Avoir des connaissances dans la programmation de microcontrôleurs (C++)
- - Savoir lire une fiche technique et en extraire les données les plus importantes
- - Connaitre des protocoles de communication comme I2C ou encore l'UART
- - Savoir envoyer des données en utilisant Sigfox.
+ - [x] Avoir des connaissances dans la programmation de microcontrôleurs (C++)
+ - [x] Savoir lire une fiche technique et en extraire les données les plus importantes
+ - [x] Connaitre des protocoles de communication comme I2C ou encore l'UART
+ - [x] Savoir envoyer des données en utilisant Sigfox.
 
 ## Liste de matériel 
 |  | Photo | Quantité | Lien pour l’achat |
