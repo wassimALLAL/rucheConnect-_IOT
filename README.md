@@ -4,73 +4,60 @@
                                                       EI2I4
                                                 La ruche connectée
                          
-        Présentation du projet                
+  ## Présentation du projet            
    Dans le cadre de notre formation au sein de Polytech Sorbonne, il nous a été confié un projet consistant à réaliser une ruche connectée destinée à des apiculteurs.
 Notre système doit être capable d’envoyer certaines données caractéristiques de la ruche et de son emplacement. Un cahier des charges à été conçu grâce à l’aide des apiculteurs.  Le système créer doit tout d’abord envoyer les données comme le poids total de la ruche, la température intérieur et extérieur, l’humidité extérieur ou encore des données caractéristiques du vent. Afin de faciliter l’utilisation de cette ruche connectée, nous devons fournir avec ce système une interface utilisateur à l’apiculteur. Notre système devra bien-sûr être totalement autonome et étanche.
 
 Notre ruche connectée à pu être tester chez des apiculteurs afin de confirmer que notre système est fiable. Après une semaine passée chez un apiculteur, nous avons pu collecter des données cohérentes avec l’environnement de la ruche.
 Nous avons pu amener à bien notre projet malgré un contexte difficile, dans un monde dans la tourmente avec la propagation du virus. Il nous a donc fallu près de 3 mois à raison de 2h par semaines pour parvenir à le concrétiser.
 
-Caractéristiques :
-Le suivi de la ruche consiste à obtenir ces données :
-•	Poids 
-•	Température intérieur/extérieur
-•	Humidité
-•	Vitesse du vent
-avec l’utilisation d’un microcontrôleur et de différents capteurs.
+##  Caractéristiques
+Le suivi de la ruche consiste à obtenir ces données en utilisant un microcontrôleur et de différents capteurs :
 
-     Conditions préalables
-Avoir des connaissances dans la programmation de microcontrôleurs (C++).
-Savoir lire une fiche technique et en extraire les données les plus importantes.
-Connaitre des protocoles de communication comme I2C ou encore l'UART.
-Savoir envoyer des données en utilisant Sigfox.
+ - [x] Poids 
+ - [x] Température intérieur/extérieur
+ - [x] Humidité
+ - [x] Vitesse du vent
 
-	Liste de matériel 
+## Conditions préalables
 
+ - Avoir des connaissances dans la programmation de microcontrôleurs (C++)
+ - Savoir lire une fiche technique et en extraire les données les plus importantes
+ - Connaitre des protocoles de communication comme I2C ou encore l'UART
+ - Savoir envoyer des données en utilisant Sigfox.
 
-• STM32 Nucleo STM32 L432KC	
-x1	https://www.st.com/en/evaluation-tools/nucleo-l432kc.html 
-
-• Capteur de température Interne DS18B20	 	x1	https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm
-
-• Capteur de température, d'humidité DHT22	 	x1	https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm
-
-• Accéléromètre ADXL345	 	x1	https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm
-
-• Capteur de poids	 	x1	https://fr.aliexpress.com/...
-
-• Ensemble capteurs girouette anémomètre
-LEXCA007	 	x1	https://www.amazon.fr/Cimoto-WH-SP-WS01-Instrument-Accessoires-An%C3%A9Mom%C3%A8Tre/dp/B083XR9X3R 
-
-• Capteur de Son
-
-Adafruit I2S MEMS Microphone Breakout	 	x1	 https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t
-
-STM32-L476RG	 x1   			https://www.mouser.fr/ProductDetail/STMicroelectronics/NUCLEO-L476RG?qs=PRtH0mD6DWbM6mRV5DKjBQ==&gclid=CjwKCAiAu8SABhAxEiwAsodSZIBpuepHc-agLV2I75A6EUGy7IFRcOjObn0HcXxYk_EZfKa1jvdfuxoCd0EQAvD_BwE
-
-• Panneau solaire SOL2W (Capteur de luminosité)	 	x2	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
-
-• Batterie	 	x2	https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm 
-
-• LiPo Rider	 	x2	https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm 
-
-• Sigfox	 	x2	https://yadom.fr/carte-breakout-sfm10r1.html 
+## Liste de matériel 
+|  | Photo | Quantité | Lien pour l’achat |
+|--|--|--|--|
+| STM32 Nucleo STM32 L432KC | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/1.png?raw=true) | x1 | [https://www.st.com/en/evaluation-tools/nucleo-l432kc.html%20https://www.st.com/en/evaluation-tools/nucleo-l432kc.html](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html%20https://www.st.com/en/evaluation-tools/nucleo-l432kc.html)
+| Capteur de température Interne DS18B20 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/2.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm](https://www.gotronic.fr/art-capteur-de-temperature-grove-101990019-23842.htm)
+| Capteur de température, d'humidité DHT22 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/3.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm](https://www.gotronic.fr/art-capteur-d-humidite-et-de-t-grove-101020019-18964.htm)
+| Accéléromètre ADXL345 | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/4.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm](https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm)
+| Capteur de poids | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/5.jpg?raw=true) | x1 | [https://fr.aliexpress.com/...](https://fr.aliexpress.com/item/32821335975.html?spm=a2g0o.detail.1000060.1.70c57419XUIr2b&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.128609.0&scm_id=1007.13339.128609.0&scm-url=1007.13339.128609.0&pvid=bee5c452-83cb-4266-97bf-3a4ea713013e&_t=gps-id:pcDetailBottomMoreThisSeller,scm-url:1007.13339.128609.0,pvid:bee5c452-83cb-4266-97bf-3a4ea713013e,tpp_buckets:668#0%23131923%2358_668%23808%237756%23616_668%23888%233325%239_668%232846%238116%23928_668%232717%237566%23874__668%233468%2315618%23960)
+| Ensemble capteurs girouette anémomètre LEXCA007| ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/6.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm](https://www.gotronic.fr/art-accelerometre-3-axes-grove-101020054-18957.htm)
+| Capteur de Son Adafruit I2S MEMS Microphone Breakout | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/7.png?raw=true) | x1 | [https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/...](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t)
+| Panneau solaire SOL2W (Capteur de luminosité) | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/7.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm](https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm)
+| Batterie | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/8.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm](https://www.gotronic.fr/art-cellule-solaire-sol2w-18995.htm)
+| LiPo Rider | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/9.jpg?raw=true) | x1 | [https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm](https://www.gotronic.fr/art-carte-lipo-rider-pro-106990008-19050.htm)
+| Sigfox | ![enter image description here](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Composants/10.jpg?raw=true) | x1 | [https://yadom.fr/carte-breakout-sfm10r1.html](https://yadom.fr/carte-breakout-sfm10r1.html)
 
 
-	Quels sont les pins utilisés ?
+## Quels sont les pins utilisés ?
 Nous utilisons 4 capteurs branchés sur notre microcontroleur.
 Voici le branchement effectué sur notre NUCLEO L-432KC :
 ![Présentation du branchement](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/branchement.jpg)
 
 
-	Utilisation de Sigfox et Ubidots
+## Utilisation de Sigfox et Ubidots
 Dans notre projet différents software ont été utilisé pour mettre en place notre ruche connecter. La figure ci-dessous montre les parties de notre projet :
 •	On a une partie devises qui permets de programmer les différents capteurs (Températures, Humidité, poids, accéléromètre…) mais aussi de mettre en place un protocoles d’envoi de données. Cette partie est géré par un soft en ligne qui est MBED (https://os.mbed.com/).
 •	Une fois la procédure de programmation des capteurs est mise en place, le Soft Sigfox intervient pour l’envoie des données vers une interface web Ubidots pour permettre au client de suivre l’évolution des données du système.
 •	Ubidots est le soft qui gère l’interface utilisateur c’est-à-dire la plateforme qui permet à l’utilisateur de communiqué avec sa ruche.
  
  ![creeationDeviceUbidots](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)	
-MBED
+ 
+## MBED
+
 Mbed OS fournit la plateforme logicielle Mbed C/C++ et les outils nécessaires à la création d'un micro logiciel de microcontrôleur qui fonctionne sur les appareils IoT. Il se compose des bibliothèques de base qui fournissent les pilotes de périphériques de microcontrôleurs, la mise en réseau, le RTOS et l'environnement d'exécution, les outils de construction et les scripts de test et de débogage. Ces connexions peuvent être sécurisées par des bibliothèques SSL/TLS compatibles telles que Mbed TLS ou wolfSSL, qui supporte mbed-rtos.
 Sigfox
 
@@ -81,7 +68,9 @@ Dans notre projet on a utilisé un module Sigfox. Pour mettre en place le module
 •	Une fois que votre appareil est enregistré dans le backend Sigfox, vous devriez le voir dans la section Appareil comme indiqué sur l'image ci-dessous :
  
 ![activationmoduleSigfox](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/activationmoduleSigfox.png)
-Sigfox et Ubidots 
+
+## Sigfox et Ubidots 
+
 La gestion des données entre Sigfox et Ubidots passe par un "Callback". Le dispositif Sigfox sera chargé de lire les capteurs et d'envoyer les valeurs à Sigfox, le message sera décodé en utilisant la configuration personnalisée de la charge utile au niveau des configurations de rappel pour construire la demande de liaison montante du message vers Ubidots. 
  
 Il est maintenant temps de mettre en place le rappel. Allez dans la section Dispositif et cliquez sur le dispositif enregistré :
@@ -119,7 +108,7 @@ Une fois le devise crée vous pouvez visualiser les différentes variables en cl
 
 ## Les pistes explorées
 
-##### Optimisation de la consommation d’énergie : 
+### Optimisation de la consommation d’énergie : 
 	
 Un scénario particulier a été mis en place pour réduire la consommation d’énergie, toute consommation est dû à l’utilisation des capteurs et des périphériques de la carte nucleo STM32L432KC, c’est pourquoi nous alimentons les capteurs chaque 30 minutes pour une durée de 10 secondes. 
 
@@ -130,7 +119,8 @@ Le graphe ci-dessous représente l’alimentation d’un capteur dans un  interv
 Afin de concrétiser ce scénario en Hardware, toute patte Vin d’un capteur est branchée à une broche Digital du micro-contrôleur. En Software, on mettra la patte Digital en output à 1, qui se traduit par 3.3v en sortie de cette patte, pour une durée de 10 secondes. 
 
 ![EasyEDA](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/EasyEDA.png)
-###### EasyEDA
+
+### EasyEDA
 
 Un autre moyen est envisageable pour réduire encore davantage la consommation, déconnecter les résistances SB09 et SB11, déconnecter toutes les LED’s de la carte est ne plus utiliser le programmeur. Pour ce faire, il faut éviter d’alimenter la carte depuis son port usb-b et l’alimenter depuis sa patte 3.3 volts. 
 
@@ -146,10 +136,10 @@ Pour donner le montage final suivant :
 
 ![MontageFinal](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/MontageFinal.png) 
 
-##### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
+#### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
 
 
-##### Edge Impulse : 
+#### Edge Impulse : 
 Edge Impulse permet aux développeurs de créer la prochaine génération de dispositifs intelligents avec Machine Learning intégré, nous nous sommes servi de ce dernier pour déployer une librairie C++ qui nous permettra de détecter la présence de frelon, la présence d'essaimage et autres. Il faut savoir que pour avoir une bibliothèque capable de faire cela, il est impératif d’établir des traitements sur des pistes labellisées qui constituent notre base de données.
 
 La base de données doit inclure des extraits sonores d’un frelon par exemple, une reine, le bruit à l’intérieur d’une ruche, un phénomène d'essaimage … etc. Elle devra contenir autant de pistes que les phénomènes ou n’importe son que nous souhaitons détecter.
@@ -178,7 +168,7 @@ Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fai
 
 Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++.
 
-##### Utilisation des librairies C++ : 
+### Utilisation des librairies C++ : 
 	
 Notre cible dans cette partie est un STM32L476RG, l’acquisition du son ce fait par un [Adafruit I2S MEMS Microphone Breakout](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t). 
 Pour la partie code, veuillez le télécharger [ici](https://github.com/ShawnHymel/ei-keyword-spotting/tree/master/embedded-demos/stm32cubeide/nucleo-l476-keyword-spotting) et suivez le tutoriel pour importer le projet sur STM32Cude et inclure votre bibliothèque C++.
