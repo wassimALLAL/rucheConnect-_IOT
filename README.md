@@ -179,12 +179,12 @@ Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fai
  
 
 
-Ci-joint un lien pour téléchargr de nos librairies C++
+Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++
 
 ## Utilisation des librairies C++ : 
 	
-Notre cible dans cette partie est un STM32L476RG, l’acquisition du son ce fait par un [Adafruit I2S MEMS Microphone Breakout](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t).. 
-Pour la partie code, veuillez le télécharger ici et suivez le tutoriel pour importer le projet sur STM32Cude et inclure votre bibliothèque C++.
+Notre cible dans cette partie est un STM32L476RG, l’acquisition du son ce fait par un [Adafruit I2S MEMS Microphone Breakout](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t). 
+Pour la partie code, veuillez le télécharger [ici](https://github.com/ShawnHymel/ei-keyword-spotting/tree/master/embedded-demos/stm32cubeide/nucleo-l476-keyword-spotting) et suivez le tutoriel pour importer le projet sur STM32Cude et inclure votre bibliothèque C++.
 
 
 
