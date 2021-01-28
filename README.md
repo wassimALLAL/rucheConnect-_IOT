@@ -119,7 +119,7 @@ Une fois le devise crée vous pouvez visualiser les différentes variables en cl
 
 ## Les pistes explorées
 
-### Optimisation de la consommation d’énergie : 
+##### Optimisation de la consommation d’énergie : 
 	
 Un scénario particulier a été mis en place pour réduire la consommation d’énergie, toute consommation est dû à l’utilisation des capteurs et des périphériques de la carte nucleo STM32L432KC, c’est pourquoi nous alimentons les capteurs chaque 30 minutes pour une durée de 10 secondes. 
 
@@ -130,7 +130,7 @@ Le graphe ci-dessous représente l’alimentation d’un capteur dans un  interv
 Afin de concrétiser ce scénario en Hardware, toute patte Vin d’un capteur est branchée à une broche Digital du micro-contrôleur. En Software, on mettra la patte Digital en output à 1, qui se traduit par 3.3v en sortie de cette patte, pour une durée de 10 secondes. 
 
 ![EasyEDA](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/EasyEDA.png)
-#### EasyEDA
+###### EasyEDA
 
 Un autre moyen est envisageable pour réduire encore davantage la consommation, déconnecter les résistances SB09 et SB11, déconnecter toutes les LED’s de la carte est ne plus utiliser le programmeur. Pour ce faire, il faut éviter d’alimenter la carte depuis son port usb-b et l’alimenter depuis sa patte 3.3 volts. 
 
@@ -138,10 +138,9 @@ Pour alimenter le microcontrôleur depuis la patte 3.3 volts nous proposons le m
 
 ![Pololu](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/Pololu.png)
 
-
 Réaliser avec un usb04d 0J9652 Pololu et régulateur de tension reg09b0J7031 Pololu
 
- 
+![PololuMontage](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/PololuMontage.png)
 
 Pour donner le montage final suivant :
 
@@ -149,7 +148,7 @@ Pour donner le montage final suivant :
  
 
 
-### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
+##### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
 
 
 ##### Edge Impulse : 
@@ -181,7 +180,7 @@ Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fai
 
 Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++
 
-### Utilisation des librairies C++ : 
+##### Utilisation des librairies C++ : 
 	
 Notre cible dans cette partie est un STM32L476RG, l’acquisition du son ce fait par un [Adafruit I2S MEMS Microphone Breakout](https://www.amazon.fr/Adafruit-I2S-MEMS-Microphone-Breakout/dp/B072P1MCCR?pd_rd_w=LxJTk&pf_rd_p=e4310615-97c3-4e0d-9f57-23cf57e7667d&pf_rd_r=MXPXGZNNY67294SHC221&pd_rd_r=45184595-237f-4975-853e-626672f25aac&pd_rd_wg=PclXY&pd_rd_i=B072P1MCCR&psc=1&ref_=pd_bap_d_rp_1_t). 
 Pour la partie code, veuillez le télécharger [ici](https://github.com/ShawnHymel/ei-keyword-spotting/tree/master/embedded-demos/stm32cubeide/nucleo-l476-keyword-spotting) et suivez le tutoriel pour importer le projet sur STM32Cude et inclure votre bibliothèque C++.
