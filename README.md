@@ -177,7 +177,8 @@ Notre modèle n’est pas très accurate, 53.6%, il faut augmenter la base de do
 Une fois satisfait de vos résultats, le déploiement de la librairie C++ se fait sur l’onglet Deployment.
 
  
- ![creeationDeviceUbidots](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/creeationDeviceUbidots.png)	
+ ![Deployer](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/DeployerEdgeImpulse.png)
+device
 
 Ci-joint un [lien](https://drive.google.com/file/d/1Z95UNyn4BX0cGxKn5TqrYBqPZnzdIMo0/view?usp=sharing) pour téléchargr de nos librairies C++
 
