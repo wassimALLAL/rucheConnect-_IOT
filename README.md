@@ -130,8 +130,8 @@ Le graphe ci-dessous représente l’alimentation d’un capteur dans un  interv
 Afin de concrétiser ce scénario en Hardware, toute patte Vin d’un capteur est branchée à une broche Digital du micro-contrôleur. En Software, on mettra la patte Digital en output à 1, qui se traduit par 3.3v en sortie de cette patte, pour une durée de 10 secondes. 
 
 ![EasyEDA](https://github.com/wassimALLAL/rucheConnect_IOT/blob/main/image/EasyEDA.png)
+#### EasyEDA
 
-### EasyEDA
 Un autre moyen est envisageable pour réduire encore davantage la consommation, déconnecter les résistances SB09 et SB11, déconnecter toutes les LED’s de la carte est ne plus utiliser le programmeur. Pour ce faire, il faut éviter d’alimenter la carte depuis son port usb-b et l’alimenter depuis sa patte 3.3 volts. 
 
 Pour alimenter le microcontrôleur depuis la patte 3.3 volts nous proposons le montage suivant : 
@@ -148,10 +148,10 @@ Pour donner le montage final suivant :
  
 
 
-Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact. 
+### "Nous vous rappelons que cette partie est une piste que nous avons explorée durant ce projet et qu’il y a du travail à faire dessus afin de rendre notre modèle plus exact" 
 
 
-### Edge Impulse : 
+##### Edge Impulse : 
 Edge Impulse permet aux développeurs de créer la prochaine génération de dispositifs intelligents avec Machine Learning intégré, nous nous sommes servi de ce dernier pour déployer une librairie C++ qui nous permettra de détecter la présence de frelon, la présence d'essaimage et autres. Il faut savoir que pour avoir une bibliothèque capable de faire cela, il est impératif d’établir des traitements sur des pistes labellisées qui constituent notre base de données.
 
 La base de données doit inclure des extraits sonores d’un frelon par exemple, une reine, le bruit à l’intérieur d’une ruche, un phénomène d'essaimage … etc. Elle devra contenir autant de pistes que les phénomènes ou n’importe son que nous souhaitons détecter.
