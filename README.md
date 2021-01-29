@@ -152,7 +152,7 @@ La base de données doit inclure des extraits sonores d’un frelon par exemple,
 La figure ci-dessous est l’interface de Edge Impulse et vous pouvez avoir plus d’informations sur l’utilisation de Edge Impulse sur ce [lien](https://docs.edgeimpulse.com/docs/audio-classification). 
 	
 
-Tout traitement sur pistes sonores téléchargées depuis [to bee or not to bee](https://zenodo.org/record/1321278#.YA8fui1zjmF) a été réalisé à l’aide du bloc [MFCC]https://fr.wikipedia.org/wiki/Cepstre avec le paramétrage suivant :
+Tout traitement sur pistes sonores téléchargées depuis [to bee or not to bee](https://zenodo.org/record/1321278#.YA8fui1zjmF) a été réalisé à l’aide du bloc [MFCC](https://fr.wikipedia.org/wiki/Cepstre) avec le paramétrage suivant :
 	
   
 
